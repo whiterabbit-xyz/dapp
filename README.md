@@ -1,6 +1,4 @@
-# TradingDAO Frontend
-
-A modern web3 frontend application for TradingDAO built with Next.js 15, React 18, and Tailwind CSS. This application provides a user interface for trading, governance, and community features.
+# WhiteRabbit Dapp
 
 ## Getting Started
 
