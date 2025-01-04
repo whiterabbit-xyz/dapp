@@ -18,16 +18,16 @@ export default function GovernancePage() {
       <div className="flex items-center gap-6 mb-8">
         <div className="relative w-16 h-16 dark:invert">
           <Image
-            src="/trading-dao-logo.svg"
-            alt="Trading DAO Logo"
-            width={64}
-            height={64}
-            className="rounded-full bg-background p-2"
+            src="/vault-logo.svg"
+            alt="Vault Logo"
+            width={48}
+            height={48}
+            className="rounded-lg"
           />
         </div>
-        <div className="flex-1">
-          <h1 className="text-3xl font-bold">Trading DAO</h1>
-          <p className="text-muted-foreground">Native chain governance for Trading DAO.</p>
+        <div className="space-y-1">
+          <h1 className="text-3xl font-bold">Vault</h1>
+          <p className="text-muted-foreground">Native chain governance for Vault.</p>
         </div>
         <Button variant="outline">Follow</Button>
       </div>

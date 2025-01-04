@@ -13,8 +13,8 @@ import {
 
 const features = [
   {
-    title: "Create Your Own Trading DAO",
-    description: "Start your own Trading DAO and manage pooled funds on connected decentralized exchanges.",
+    title: "Create Your Own Vault",
+    description: "Start your own Vault and manage pooled funds on connected decentralized exchanges.",
     icon: ArrowLeftRight,
     color: "primary"
   },

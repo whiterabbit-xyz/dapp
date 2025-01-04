@@ -20,13 +20,13 @@ const steps = [
   {
     number: "03",
     title: "Choose Your Path",
-    description: "Decide whether you want to Create a Trading DAO or Contribute to Existing DAOs in the ecosystem.",
+    description: "Decide whether you want to Create a Vault or Contribute to Existing Vaults in the ecosystem.",
     color: "primary"
   },
   {
     number: "04",
     title: "Start Trading or Contributing",
-    description: "Begin managing your own DAO or invest in DAOs created by other community members.",
+    description: "Begin managing your own Vault or invest in Vaults created by other community members.",
     color: "primary"
   }
 ] as const
