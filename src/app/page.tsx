@@ -11,6 +11,24 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
   title: "WhiteRabbit | Decentralized Trading Platform",
   description: "Experience the future of trading with WhiteRabbit - A decentralized trading platform combining DeFi, community governance, and advanced trading tools.",
+  openGraph: {
+    title: "WhiteRabbit | Decentralized Trading Platform",
+    description: "Experience the future of trading with WhiteRabbit - A decentralized trading platform combining DeFi, community governance, and advanced trading tools.",
+    images: [
+      {
+        url: "/thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "WhiteRabbit Thumbnail",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "WhiteRabbit | Decentralized Trading Platform",
+    description: "Experience the future of trading with WhiteRabbit - A decentralized trading platform combining DeFi, community governance, and advanced trading tools.",
+    images: ["/thumbnail.png"],
+  },
 } 
 
 export default function Home() {
