@@ -9,6 +9,7 @@ import { FooterSection } from "@/components/sections/footer"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://whiterabbit.tabellio.io"),
   title: "WhiteRabbit | Decentralized Trading Platform",
   description: "Experience the future of trading with WhiteRabbit - A decentralized trading platform combining DeFi, community governance, and advanced trading tools.",
   openGraph: {
