@@ -42,7 +42,7 @@ export function HeroSection() {
               variants={fadeIn}
               className="text-lg md:text-xl lg:text-2xl text-foreground max-w-3xl mx-auto leading-relaxed weight-500"
             >
-              Join the decentralized platform where expert traders and contributors unite for mutual growth.
+              Join the decentralized platform where creators and contributors unite for mutual growth.
             </motion.h2>
           </motion.div>
           
@@ -55,7 +55,7 @@ export function HeroSection() {
               className="text-lg px-12 py-6 bg-accent hover:bg-accent/80 text-white rounded-full" 
               asChild
             >
-              <Link href="/app">Get Started as a Trader</Link>
+              <Link href="/app">Get Started as a Creator</Link>
             </Button>
             <Button 
               size="lg" 
@@ -63,7 +63,7 @@ export function HeroSection() {
               className="text-lg px-12 py-6 border-primary text-primary hover:bg-primary/40 hover:border-primary/80 rounded-full" 
               asChild
             >
-              <Link href="/app">Invest as a Contributor</Link>
+              <Link href="/app">Get Started as a Contributor</Link>
             </Button>
           </motion.div>
         </div>

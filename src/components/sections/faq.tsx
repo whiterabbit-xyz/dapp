@@ -9,15 +9,11 @@ import { Card } from "@/components/ui/card"
 const faqs = [
   {
     question: "What is WhiteRabbit?",
-    answer: "WhiteRabbit is a decentralized trading platform that connects expert traders with contributors, enabling collaborative trading and fair profit sharing through smart contracts."
+    answer: "WhiteRabbit is a DAO creation tool exclusively designed to aggregate and manage funds for trading and investment activities within the Stellar blockchain ecosystem. Each Vault is created and managed by a designated manager who executes trading strategies using the liquidity contributed by participants. These strategies are carried out transparently on Stellar's decentralized exchanges (DEXs), leveraging the network's speed, low transaction costs, and accessibility.  Vaults operate under community-driven governance, enabling participants to propose and vote on decisions related to the Vault's operation, such as adding new tokens or modifying parameters. Contributors to a Vault share in the profits or losses proportionally based on their contributions, ensuring fairness and alignment of interests.  Vaults are a foundational component of the WhiteRabbit platform, promoting enhanced liquidity, democratized trading opportunities, and transparent decentralized finance (DeFi) solutions for all participants in the Stellar ecosystem."
   },
   {
     question: "How do I get started?",
-    answer: "Getting started is easy! Simply create an account, verify your identity, connect your wallet, and choose whether you want to be a trader or contributor."
-  },
-  {
-    question: "Is my investment secure?",
-    answer: "Yes, we prioritize security. All funds are managed through audited smart contracts and multi-signature wallets, with regular security audits and transparent operations."
+    answer: "Getting started is easy! Simply create an account, verify your identity, connect your wallet, and choose whether you want to be a creator or contributor."
   },
   {
     question: "How are profits distributed?",

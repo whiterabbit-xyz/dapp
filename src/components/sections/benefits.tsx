@@ -7,7 +7,7 @@ import { TrendingUp, Users2, Sparkles, Check } from "lucide-react"
 
 const benefits = [
   {
-    title: "For Traders",
+    title: "For Creators",
     color: "primary",
     icon: TrendingUp,
     items: [
@@ -65,7 +65,7 @@ export function BenefitsSection() {
         >
           <h2 className="text-3xl font-[700] mb-4">Platform <span className="text-primary font-[700]">Benefits</span></h2>
           <p className="text-xl text-text/60">
-            Discover the advantages of joining our trading community
+            Discover the advantages of joining our community
           </p>
         </motion.div>
 

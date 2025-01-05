@@ -11,9 +11,9 @@ export function CtaSection() {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="gradient-border p-12 text-center max-w-4xl mx-auto">
-          <h2 className="text-3xl font-[700] mb-4">Ready to Start <span className="text-primary font-[700]">Trading</span>?</h2>
+          <h2 className="text-3xl font-[700] mb-4">Ready to Start?</h2>
           <p className="text-xl text-text/60 mb-8 max-w-2xl mx-auto">
-            Join our community of traders and contributors today and experience the future of decentralized trading.
+            Join our community of creators and contributors today and experience the future of decentralized trading.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

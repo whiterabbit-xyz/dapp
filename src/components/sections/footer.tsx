@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useSmoothScroll } from '@/hooks/use-smooth-scroll'
-import { Twitter, Github, MessagesSquare } from 'lucide-react'
+import { Github } from 'lucide-react'
 
 const footerLinks = {
   quickLinks: [
@@ -10,11 +10,10 @@ const footerLinks = {
     { name: "How It Works", href: "#how-it-works", id: "how-it-works" },
     { name: "Benefits", href: "#benefits", id: "benefits" },
     { name: "FAQ", href: "#faq", id: "faq" },
+    { name: "Stellar Network", href: "https://stellar.org", id: null },
   ],
   social: [
-    { name: "Twitter", href: "#", icon: Twitter },
-    { name: "Discord", href: "#", icon: MessagesSquare },
-    { name: "GitHub", href: "#", icon: Github },
+    { name: "GitHub", href: "https://github.com/orgs/whiterabbit-xyz/repositories", icon: Github },
   ]
 } as const
 
@@ -31,7 +30,7 @@ export function FooterSection() {
               WhiteRabbit
             </Link>
             <p className="mt-4 text-text/60 max-w-sm text-[900]">
-              Revolutionizing decentralized trading through community-driven innovation and cutting-edge technology.
+            Build your community and follow the whiterabbit.
             </p>
             {/* Social Links */}
             <div className="flex gap-4 mt-6">
