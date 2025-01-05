@@ -84,7 +84,7 @@ export function ConnectWalletButton() {
     return (
       <Button 
         variant="outline" 
-        className="w-full justify-start gap-3 text-muted-foreground hover:text-accent-foreground py-6"
+        className="w-full justify-start gap-2 text-sm text-muted-foreground hover:text-foreground py-3"
         onClick={handleDisconnect}
       >
         <LogOut className="h-4 w-4" />
@@ -98,7 +98,7 @@ export function ConnectWalletButton() {
   return (
     <Button 
       variant="secondary" 
-      className="w-full justify-start gap-3 text-white hover:text-white py-6"
+      className="w-full justify-start gap-2 text-sm text-secondary-foreground hover:text-secondary-foreground py-3"
       onClick={handleConnect}
       disabled={isLoading}
     >
