@@ -21,7 +21,7 @@ export function CtaSection() {
               className="text-lg px-8 bg-accent hover:bg-accent/80 text-white rounded-full" 
               asChild
             >
-              <Link href="/app">Launch App</Link>
+              <Link href="/">Launch App</Link>
             </Button>
             <Button 
               size="lg" 

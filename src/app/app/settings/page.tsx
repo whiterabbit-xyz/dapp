@@ -9,7 +9,7 @@ export default function SettingsPage() {
   return (
     <div className="space-y-6">
       <div className="space-y-4">
-        <h2 className="text-2xl font-bold">Settings</h2>
+        <h2 className="text-3xl font-bold">Settings</h2>
         <div className="text-muted-foreground">
           TODO: Implement Settings page
         </div>

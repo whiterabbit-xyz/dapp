@@ -55,7 +55,7 @@ export function HeroSection() {
               className="text-lg px-12 py-6 bg-accent hover:bg-accent/80 text-white rounded-full" 
               asChild
             >
-              <Link href="/app">Get Started as a Creator</Link>
+              <Link href="/">Get Started as a Creator</Link>
             </Button>
             <Button 
               size="lg" 
@@ -63,7 +63,7 @@ export function HeroSection() {
               className="text-lg px-12 py-6 border-primary text-primary hover:bg-primary/40 hover:border-primary/80 rounded-full" 
               asChild
             >
-              <Link href="/app">Get Started as a Contributor</Link>
+              <Link href="/">Get Started as a Contributor</Link>
             </Button>
           </motion.div>
         </div>
